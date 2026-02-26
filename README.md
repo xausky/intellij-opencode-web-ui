@@ -1,29 +1,32 @@
 # opencode-web-ui
 
 ![Build](https://github.com/xausky/opencode-web-ui/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
+[![Version](https://img.shields.io/jetbrains/plugin/v/30364-opencode-web-ui.svg)](https://plugins.jetbrains.com/plugin/30364-opencode-web-ui)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/30364-opencode-web-ui.svg)](https://plugins.jetbrains.com/plugin/30364-opencode-web-ui)
 
 ## 简介
 
 OpenCodeWeb 是一款 JetBrains IDE（IntelliJ IDEA、PyCharm、WebStorm 等）插件，为 OpenCode 提供便捷的 Web UI 集成。
 
 <!-- Plugin description -->
-> **注意：** 这是一款 OpenCode 的非官方插件，由社区开发者维护，与 OpenCode 官方无关。
 
-### 功能特性
+## Plugin Description
 
-- 🚀 **自动启动服务** - 点击侧边栏图标，自动检查并启动 OpenCode 服务器
-- 🔄 **智能监控** - 定时检测服务器状态，自动重启异常的服务
-- 🛡️ **自动清理** - IDE 退出时自动停止 OpenCode 服务，释放资源
-- 🎨 **侧边栏集成** - 在 IDE 右侧显示插件图标，点击即可访问 OpenCode Web UI
-- 📁 **项目同步** - 自动加载当前项目的 Web 界面
+> **Note:** This is an unofficial plugin for OpenCode, maintained by the community and not affiliated with OpenCode.
 
-### 使用场景
+### Features
 
-- 需要在 JetBrains IDE 中使用 OpenCode Web UI
-- 需要自动管理 OpenCode 服务器的开发者
-- 希望在编码过程中快速查看 AI 助手界面的用户
+- **Auto-start Service** - Click the sidebar icon to automatically check and start the OpenCode server
+- **Smart Monitoring** - Periodically check server status and automatically restart failed services
+- **Auto Cleanup** - Automatically stop OpenCode service when IDE exits to release resources
+- **Sidebar Integration** - Display plugin icon in the right sidebar, click to access OpenCode Web UI
+- **Project Sync** - Automatically load the Web interface for the current project
+
+### Use Cases
+
+- Developers who need to use OpenCode Web UI in JetBrains IDE
+- Developers who need to automatically manage OpenCode servers
+- Users who want to quickly view the AI assistant interface during coding
 <!-- Plugin description end -->
 
 ## 安装
@@ -35,9 +38,9 @@ OpenCodeWeb 是一款 JetBrains IDE（IntelliJ IDEA、PyCharm、WebStorm 等）�
 
 - 使用 JetBrains Marketplace：
 
-  访问 [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID) 进行安装
+  访问 [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/30364-opencode-web-ui) 进行安装
 
-  也可以从 JetBrains Marketplace 下载[最新版本](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID/versions)，然后使用
+  也可以从 JetBrains Marketplace 下载[最新版本](https://plugins.jetbrains.com/plugin/30364-opencode-web-ui/versions)，然后使用
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>从磁盘安装插件...</kbd>
 
 - 手动安装：
