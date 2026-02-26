@@ -9,7 +9,7 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.xausky.opencodewebui.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.xausky.opencodewebui.startup.MyProjectActivity" />
+        <toolWindow factoryClass="com.github.xausky.opencodewebui.toolWindow.MyToolWindowFactory" id="OpenCodeWeb" anchor="right" icon="/icons/ocw.svg" displayName="OpenCodeWeb"/>
+        <postStartupActivity implementation="com.github.xausky.opencodewebui.startup.MyStartupActivity"/>
     </extensions>
 </idea-plugin>
